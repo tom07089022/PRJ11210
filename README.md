@@ -1,6 +1,6 @@
 # PRJ11210
+#### 注意！執行此系統的電腦需有視訊鏡頭及Nvidia 20系列以前的顯示卡（Nvidia 30系列以後的顯示卡並不能使用tensorflow-gpu 1.4.0的版本）
 ##### NTCU-CS-PRJ-112-10
-## 注意！執行此系統的電腦需有視訊鏡頭及Nvidia 20系列以前的顯示卡（Nvidia 30系列以後的顯示卡並不能使用tensorflow-gpu 1.4.0的版本）
 這是NTCU-CS-PRJ-112-10主要的程式碼，先將全部Code下載下來並解壓縮（建議存放在D:/）將總資料夾名稱改成tf-pose-estimation-master，環境的部分分為TFpose和Dlib  
  1. TFpose安裝：
   	* 先安裝Anaconda
