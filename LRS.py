@@ -34,7 +34,7 @@ class LongRepString:
             "C:\\Users\\tomkill\\anaconda3\\envs\\test\\Lib\\site-packages\\dlib-19.7.0.dist-info\\shape_predictor_68_face_landmarks.dat"
         )
         #--Import Model--#
-        self.clf = joblib.load("D:\\tf-pose-estimation-master\\models\\Model_EAR_SVM.m")      
+        self.clf = joblib.load(".\\models\\Model_EAR_SVM.m")      
 
         self.frame_counter = 0
         self.ear_vector = []

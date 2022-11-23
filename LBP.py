@@ -22,7 +22,7 @@ def olbp(src):
 
 class LBP:
     def __init__(self):
-        self.lbpmodel = keras.models.load_model('D:\\tf-pose-estimation-master\\models\\Model_3types_LBP_CNN_final.h5')
+        self.lbpmodel = keras.models.load_model('.\\models\\Model_3types_LBP_CNN_final.h5')
 
     def prediction(self, image):
         putWord = ''
