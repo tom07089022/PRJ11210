@@ -21,7 +21,7 @@
   	* pip install C:\Users\"你的使用者名稱"\Desktop\dlib-19.7.0-cp36-cp36m-win_amd64.whl（此為"dlib-19.7.0-cp36-cp36m-win_amd64.whl"的絕對路徑）
   	* **"dlib-19.7.0-cp36-cp36m-win_amd64.whl"安裝完即可刪除**
   	* 將USB裡的"shape_predictor_68_face_landmarks.dat"放到"C:\Users\"你的使用者名稱"\anaconda3\envs\"你的虛擬環境名稱"\Lib\site-packages\dlib-19.7.0.dist-			info\"裡
-  	* 更改"LRS.py"第37行的路徑為
+  	* 更改"LRS.py"第34行的路徑為
        "C:\\Users\\"你的使用者名稱"\\anaconda3\\envs\\"你的虛擬環境名稱"\\Lib\\site-packages\\dlib-19.7.0.dist-info\\shape_predictor_68_face_landmarks.dat"
 3. 目前應該就可以執行程式了
   	* 如果需要傳送檔案則要先開Server.py：
